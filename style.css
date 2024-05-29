@@ -71,12 +71,15 @@ nav{
 
 .btn{
     padding: 1rem;
-    border-radius: 1rem;
-    background: rgb(71, 147, 175);
+    border-radius: 0.3rem;
+    background: rgb(37,211,102);
     color: aliceblue;
     cursor: pointer;
     transition: all 0.3s ease;
     border: solid 1.5px black;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 3px;
 }
 
 .btn:hover{
@@ -283,10 +286,6 @@ section .stitle{
         margin-top: 1.2rem;
     }
 
-    .nav-links a{
-        text-decoration: underline rgb(139, 50, 44);
-    }
-
     .btn1 {
         margin: 0 auto;
     }
@@ -318,7 +317,8 @@ section .stitle{
         grid-template-columns: 1fr;
     }
 
-    .btn, .btn1, .btn3 {
+    
+    .btn1, .btn3 {
         padding: 0.5rem;
         font-size: 0.9rem;
     }
