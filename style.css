@@ -17,8 +17,8 @@ a{
 }
 
 body{
-    height: 100%;
-    font-family: "Roboto", sans-serif;
+    
+    font-family: "Roboto";
     background: linear-gradient(0deg, rgb(139, 50, 44) 0%, rgb(221, 87, 70) 25%, rgb(255, 196, 112) 50%, rgb(71, 147, 175) 100%);
 }
 
@@ -305,14 +305,19 @@ section .stitle{
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) {   
+    .nav-links{
+        flex-direction: column;
+    }
+    
     nav {
         padding: 1rem;
+
     }
 
     .container {
         padding: 2rem 1rem;
-        margin-left: 50px;
+        margin: auto;
     }
 
     .conteudo {
