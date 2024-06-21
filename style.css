@@ -174,14 +174,14 @@ section .stitle{
 }
 
 .conteudo .card:hover{
-    background-color: rgb(221, 87, 70);
+    background-color: rgb(139, 50, 44);
     border-color: #fff;
 }
 
 .conteudo .card span{
     display: inline-block;
     background-color: rgb(139, 50, 44);
-    padding: 2px 9px;
+    padding: 2px;
     margin-bottom: 1rem;
     font-size: 1.75rem;
     color: aliceblue;
@@ -270,7 +270,62 @@ section .stitle{
 
 .btn3:hover{
     background-color: rgb(139, 50, 44);
-}    
+}  
+
+footer {
+    padding: 20px 0;
+    margin-top: 100px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-height: 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info p{
+    color: aliceblue;
+}
+
+.sociais {
+    display: flex;
+    gap: 10px; 
+}
+
+.sociais a {
+    font-size: 24px;
+    color: aliceblue;
+    margin-top: 10px;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.sociais a:hover {
+    color: rgb(255, 255, 255); 
+    background-color: rgb(71, 147, 175);
+    transition: all 0.3s;
+}
+
+.copy{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    color: rgb(121, 131, 128);
+}
 
 /* MOBILE CONFIGURATIONS */
 @media (max-width: 768px) {
