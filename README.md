@@ -1,4 +1,5 @@
-Meu Currículo Online
+Meu Currículo Online.  
+
 Bem-vindo ao repositório do meu currículo online. Este projeto é um site simples que apresenta minhas informações profissionais, habilidades e experiência.
 
 🛠️ Tecnologias Utilizadas
